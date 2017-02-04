@@ -1,0 +1,21 @@
+Danny Weiner 435140
+Emily Coco  429297
+
+http://ec2-52-33-218-205.us-west-2.compute.amazonaws.com/~ecoco/login.html
+http://ec2-54-213-147-183.us-west-2.compute.amazonaws.com/~dnweiner/login.html
+
+For the creative portion, we created a way to register a new user, a way to make a new directory for a user that had
+not previously logged on, and a way to create a new file.
+The code for registering a new user is found in register.php and simply appends a new username on a new line in user.txt
+and then creates a new directory for that user.
+The file user-read.php was modified to make a new directory for any user on user.txt that did not have a directory prior to
+their first log in attempt.
+To create a new file, we used create-new-file.php, which takes in a new file name (with an appropriate extension) and some text data
+that will be contained in the file.  The limitation on this function is that it can only create text files because that
+is the only type of data that create-new-file.php supports.
+
+TA Login instructions:
+If you want to login as a user that already exists in user.txt, login as "ecoco", "dweiner", or "user3"
+If you want to login as your own user, create your own username in the register new user spot on our homepage.
+
+Depending on what link you use there will probably be different files in each user's directory.

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8"/>
+<title>File Server Login</title>
+<style type="text/css">
+body{
+	width: 760px; /* how wide to make your web page */
+	background-color: teal; /* what color to make the background */
+	margin: 0 auto;
+	padding: 0;
+	font:12px/16px Verdana, sans-serif; /* default font */
+}
+div#main{
+	background-color: #FFF;
+	margin: 0;
+	padding: 10px;
+}
+</style>
+</head>
+<body><div id="main">
+ 
+<p>Welcome to Danny Weiner and Emily Coco's file server: Pizazz!</p>
+<br>
+<form action="users-read.php" method="POST" target="_blank">
+	<strong>If you are a returning user, please enter your username below.</strong>
+	<br>
+	<input type="text" name="user"/>
+	<br>
+	<input type="submit" value="Login"/>
+	<input type="reset" value="Clear"/>
+</form>
+<br>
+<form action="register.php" method="POST" target="_blank">
+	<strong>If you are a new user, please enter a username below.</strong>
+	<br>
+	<input type="text" name="newuser"/>
+	<br>
+	<input type="submit" value="Register"/>
+	<input type="reset" value="Clear"/>
+</form>
+</div>
+
+<img src="http://images.clipartpanda.com/animated-fireworks-for-powerpoint-fireworks.png" alt="Fireworks!" align="center"
+/>
+
+</body>
+</html>
